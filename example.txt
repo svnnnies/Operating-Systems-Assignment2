@@ -1,0 +1,21 @@
+[lalabed@wasp ~]$ cd OS
+[lalabed@wasp OS]$ cd Assignment2
+[lalabed@wasp Assignment2]$ g++ bankers.cpp -pthread -o bankers
+[lalabed@wasp Assignment2]$ ./bankers
+Allocated Resources: 
+P0: 0 1 0 
+P1: 2 0 0 
+P2: 3 0 2 
+P3: 2 1 1 
+P4: 0 0 2 
+
+Maximum Demand: 
+P0: 7 5 3 
+P1: 3 2 2 
+P2: 9 0 2 
+P3: 2 2 2 
+P4: 4 3 3 
+
+Available Resources: 3 3 2 
+
+The system is in a safe state. Safe sequence is: 1 3 4 0 2 
